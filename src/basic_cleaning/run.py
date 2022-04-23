@@ -90,14 +90,14 @@ if __name__ == "__main__":
 
     parser.add_argument(
         "--min_price", 
-        type=float,
+        type=int,
         help="Minimum price of real estate to include in data",
         required=True
     )
 
     parser.add_argument(
         "--max_price", 
-        type=float,
+        type=int,
         help="Maximum price of real estate to include in data",
         required=True
     )
